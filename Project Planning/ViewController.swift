@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         view.sendSubviewToBack(backgroundImageView)
     }
     
-    
+    // jh,bnm
     
     
     override func viewDidLoad() {
