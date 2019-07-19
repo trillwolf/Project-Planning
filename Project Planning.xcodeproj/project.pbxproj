@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC90313B22DFC52200DE5837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC90313922DFC52200DE5837 /* Main.storyboard */; };
 		CCB3C20C22DD059D0065F7F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3C20B22DD059D0065F7F9 /* AppDelegate.swift */; };
 		CCB3C20E22DD059D0065F7F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB3C20D22DD059D0065F7F9 /* ViewController.swift */; };
-		CCB3C21122DD059D0065F7F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3C20F22DD059D0065F7F9 /* Main.storyboard */; };
-		CCB3C21422DD059D0065F7F9 /* Project_Planning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCB3C21222DD059D0065F7F9 /* Project_Planning.xcdatamodeld */; };
 		CCB3C21622DD059E0065F7F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB3C21522DD059E0065F7F9 /* Assets.xcassets */; };
-		CCB3C21922DD059E0065F7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB3C21722DD059E0065F7F9 /* LaunchScreen.storyboard */; };
+		CCD9C9EA22DFD9FB007D4BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD9C9E822DFD9FB007D4BDC /* LaunchScreen.storyboard */; };
+		CCD9C9EC22E13051007D4BDC /* CelebrityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9C9EB22E13051007D4BDC /* CelebrityController.swift */; };
+		CCD9CA1D22E23313007D4BDC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA0D22E23313007D4BDC /* GameViewController.swift */; };
+		CCD9CA1E22E23313007D4BDC /* Helping Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA0E22E23313007D4BDC /* Helping Functions.swift */; };
+		CCD9CA2122E23313007D4BDC /* Game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD9CA1222E23313007D4BDC /* Game.storyboard */; };
+		CCD9CA2222E23313007D4BDC /* TrailLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA1422E23313007D4BDC /* TrailLine.swift */; };
+		CCD9CA2322E23313007D4BDC /* XMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA1522E23313007D4BDC /* XMarks.swift */; };
+		CCD9CA2422E23313007D4BDC /* Fruits.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA1622E23313007D4BDC /* Fruits.swift */; };
+		CCD9CA2522E23313007D4BDC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CCD9CA1722E23313007D4BDC /* GameScene.sks */; };
+		CCD9CA2622E23313007D4BDC /* Explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = CCD9CA1822E23313007D4BDC /* Explode.sks */; };
+		CCD9CA2822E23313007D4BDC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA1A22E23313007D4BDC /* GameScene.swift */; };
+		CCD9CA2A22E23313007D4BDC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CCD9CA1C22E23313007D4BDC /* Actions.sks */; };
+		CCD9CA2C22E233C0007D4BDC /* GameButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD9CA2B22E233C0007D4BDC /* GameButtonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC90313A22DFC52200DE5837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCB3C20822DD059D0065F7F9 /* Project Planning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Planning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB3C20B22DD059D0065F7F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCB3C20D22DD059D0065F7F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCB3C21022DD059D0065F7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCB3C21322DD059D0065F7F9 /* Project_Planning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_Planning.xcdatamodel; sourceTree = "<group>"; };
 		CCB3C21522DD059E0065F7F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CCB3C21822DD059E0065F7F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB3C21A22DD059E0065F7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD9C9E922DFD9FB007D4BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD9C9EB22E13051007D4BDC /* CelebrityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrityController.swift; sourceTree = "<group>"; };
+		CCD9CA0D22E23313007D4BDC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CCD9CA0E22E23313007D4BDC /* Helping Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helping Functions.swift"; sourceTree = "<group>"; };
+		CCD9CA1322E23313007D4BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Game.storyboard; sourceTree = "<group>"; };
+		CCD9CA1422E23313007D4BDC /* TrailLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailLine.swift; sourceTree = "<group>"; };
+		CCD9CA1522E23313007D4BDC /* XMarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMarks.swift; sourceTree = "<group>"; };
+		CCD9CA1622E23313007D4BDC /* Fruits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fruits.swift; sourceTree = "<group>"; };
+		CCD9CA1722E23313007D4BDC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CCD9CA1822E23313007D4BDC /* Explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explode.sks; sourceTree = "<group>"; };
+		CCD9CA1A22E23313007D4BDC /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CCD9CA1C22E23313007D4BDC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CCD9CA2B22E233C0007D4BDC /* GameButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButtonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,42 @@
 		CCB3C20A22DD059D0065F7F9 /* Project Planning */ = {
 			isa = PBXGroup;
 			children = (
+				CCD9CA0B22E232D7007D4BDC /* Game */,
+				CCD9C9E822DFD9FB007D4BDC /* LaunchScreen.storyboard */,
+				CCD9CA1222E23313007D4BDC /* Game.storyboard */,
 				CCB3C20B22DD059D0065F7F9 /* AppDelegate.swift */,
 				CCB3C20D22DD059D0065F7F9 /* ViewController.swift */,
-				CCB3C20F22DD059D0065F7F9 /* Main.storyboard */,
 				CCB3C21522DD059E0065F7F9 /* Assets.xcassets */,
-				CCB3C21722DD059E0065F7F9 /* LaunchScreen.storyboard */,
 				CCB3C21A22DD059E0065F7F9 /* Info.plist */,
-				CCB3C21222DD059D0065F7F9 /* Project_Planning.xcdatamodeld */,
+				CC90313922DFC52200DE5837 /* Main.storyboard */,
+				CCD9C9EB22E13051007D4BDC /* CelebrityController.swift */,
+				CCD9CA2B22E233C0007D4BDC /* GameButtonController.swift */,
 			);
 			path = "Project Planning";
+			sourceTree = "<group>";
+		};
+		CCD9CA0B22E232D7007D4BDC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				CCD9CA0C22E23313007D4BDC /* Weather Game */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		CCD9CA0C22E23313007D4BDC /* Weather Game */ = {
+			isa = PBXGroup;
+			children = (
+				CCD9CA0D22E23313007D4BDC /* GameViewController.swift */,
+				CCD9CA0E22E23313007D4BDC /* Helping Functions.swift */,
+				CCD9CA1422E23313007D4BDC /* TrailLine.swift */,
+				CCD9CA1522E23313007D4BDC /* XMarks.swift */,
+				CCD9CA1622E23313007D4BDC /* Fruits.swift */,
+				CCD9CA1722E23313007D4BDC /* GameScene.sks */,
+				CCD9CA1822E23313007D4BDC /* Explode.sks */,
+				CCD9CA1A22E23313007D4BDC /* GameScene.swift */,
+				CCD9CA1C22E23313007D4BDC /* Actions.sks */,
+			);
+			path = "Weather Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +174,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCB3C21922DD059E0065F7F9 /* LaunchScreen.storyboard in Resources */,
+				CCD9CA2122E23313007D4BDC /* Game.storyboard in Resources */,
+				CCD9C9EA22DFD9FB007D4BDC /* LaunchScreen.storyboard in Resources */,
+				CC90313B22DFC52200DE5837 /* Main.storyboard in Resources */,
+				CCD9CA2622E23313007D4BDC /* Explode.sks in Resources */,
+				CCD9CA2522E23313007D4BDC /* GameScene.sks in Resources */,
 				CCB3C21622DD059E0065F7F9 /* Assets.xcassets in Resources */,
-				CCB3C21122DD059D0065F7F9 /* Main.storyboard in Resources */,
+				CCD9CA2A22E23313007D4BDC /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +191,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD9CA2822E23313007D4BDC /* GameScene.swift in Sources */,
+				CCD9CA2222E23313007D4BDC /* TrailLine.swift in Sources */,
+				CCD9CA1D22E23313007D4BDC /* GameViewController.swift in Sources */,
+				CCD9C9EC22E13051007D4BDC /* CelebrityController.swift in Sources */,
+				CCD9CA2322E23313007D4BDC /* XMarks.swift in Sources */,
+				CCD9CA2C22E233C0007D4BDC /* GameButtonController.swift in Sources */,
+				CCD9CA2422E23313007D4BDC /* Fruits.swift in Sources */,
 				CCB3C20E22DD059D0065F7F9 /* ViewController.swift in Sources */,
+				CCD9CA1E22E23313007D4BDC /* Helping Functions.swift in Sources */,
 				CCB3C20C22DD059D0065F7F9 /* AppDelegate.swift in Sources */,
-				CCB3C21422DD059D0065F7F9 /* Project_Planning.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCB3C20F22DD059D0065F7F9 /* Main.storyboard */ = {
+		CC90313922DFC52200DE5837 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCB3C21022DD059D0065F7F9 /* Base */,
+				CC90313A22DFC52200DE5837 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CCB3C21722DD059E0065F7F9 /* LaunchScreen.storyboard */ = {
+		CCD9C9E822DFD9FB007D4BDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CCB3C21822DD059E0065F7F9 /* Base */,
+				CCD9C9E922DFD9FB007D4BDC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD9CA1222E23313007D4BDC /* Game.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD9CA1322E23313007D4BDC /* Base */,
+			);
+			name = Game.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +357,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSB896CABT;
 				INFOPLIST_FILE = "Project Planning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JSB896CABT;
 				INFOPLIST_FILE = "Project Planning/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,19 +410,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CCB3C21222DD059D0065F7F9 /* Project_Planning.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CCB3C21322DD059D0065F7F9 /* Project_Planning.xcdatamodel */,
-			);
-			currentVersion = CCB3C21322DD059D0065F7F9 /* Project_Planning.xcdatamodel */;
-			path = Project_Planning.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CCB3C20022DD059D0065F7F9 /* Project object */;
 }

@@ -19,11 +19,11 @@ class ViewController: UIViewController {
         backgroundImageView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
         backgroundImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         backgroundImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        backgroundImageView.image = UIImage(named: "Image")
+        backgroundImageView.image = UIImage(named: "Background")
         view.sendSubviewToBack(backgroundImageView)
     }
     
-    
+
     
     
     override func viewDidLoad() {
